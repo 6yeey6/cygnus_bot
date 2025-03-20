@@ -1,30 +1,3 @@
-Operation Method:
-Press F12, select Console: Paste the entire code into the console and press Enter. Then, a control module will appear on the page (which can be dragged with the mouse). Input the interval time you want to set (1 second = 1000ms), and click Start.
-
-Function Description
-This is an auto-clicker script (persistent version), primarily used to simulate mouse click operations on web pages. It can automatically click within a specified game area with random offsets and set the click interval and on/off state through a draggable control panel. The script supports the following features:
-- Automatic game area positioning: Locates the click area through background images, specific styles, or default center coordinates.
-- Click simulation: Randomly clicks within the target area, displaying red dot prompts.
-- Persistent settings: Saves click interval, running state, and control panel position via localStorage, automatically restoring them after page refresh.
-- Control panel: Provides an input box to set the click interval (in milliseconds) and a "Start/Stop" button, supporting drag-and-drop position adjustment.
-- Automatic recovery: Detects page refresh or script removal and automatically reloads and resumes operation.
-
-Operation Method
-- Install the script:
-  Paste the code into the browser's Developer Tools (F12) under "Console" and press Enter to execute, or load it via a user script manager (e.g., Tampermonkey).
-- Use the control panel:
-  After execution, a black control panel will appear in the top-right corner of the page.
-  - Input box: Enter the click interval time (in milliseconds, minimum 100).
-  - Button: Click "Start" to initiate auto-clicking, and click again to "Stop" pausing.
-  - Drag: Hold and drag the blank area of the control panel to adjust its position.
-- Observe clicks:
-  During operation, red dots will randomly appear within the game area, indicating the simulated click positions.
-- Persistent effect:
-  Settings and running state are automatically saved. After refreshing the page, the script will reload and restore the previous state.
-- Stop the script:
-  Close the page or manually remove the control panel (by deleting the #auto-clicker-panel element via Developer Tools).
-
-Suitable for web games or task scenarios requiring repeated clicks.
 
 
 操作方法：
