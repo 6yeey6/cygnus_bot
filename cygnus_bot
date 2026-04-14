@@ -4,7 +4,7 @@
     if (!window.clickerInitialized) {
         // 标记已初始化
         window.clickerInitialized = true;
-
+         //测试
         // 将完整代码保存到localStorage，用于页面刷新后恢复
         const fullScript = function() {
             // 游戏区域查找函数
